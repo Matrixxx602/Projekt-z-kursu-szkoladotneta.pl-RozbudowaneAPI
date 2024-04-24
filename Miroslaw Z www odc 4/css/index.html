@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Stylizowanie formularzy</title>
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<div id="container" >
+		<form>
+		
+			<input type="text" placeholder="login" onfocus="this.placeholder=''" onblur="this.placeholder='login'" >
+			
+			<input type="password" placeholder="hasło" onfocus="this.placeholder=''" onblur="this.placeholder='hasło'" >
+			
+			<input type="submit" value="Zaloguj się" >
+		
+		</form>	
+	</div>
+
+</body>
+</html>
