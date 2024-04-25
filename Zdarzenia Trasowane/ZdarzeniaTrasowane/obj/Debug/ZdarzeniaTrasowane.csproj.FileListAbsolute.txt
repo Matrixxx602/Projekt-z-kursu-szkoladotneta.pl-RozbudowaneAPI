@@ -1,0 +1,15 @@
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\bin\Debug\ZdarzeniaTrasowane.exe.config
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\bin\Debug\ZdarzeniaTrasowane.exe
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\bin\Debug\ZdarzeniaTrasowane.pdb
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane.csproj.AssemblyReference.cache
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\MainWindow.g.cs
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\App.g.cs
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane_MarkupCompile.cache
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane_MarkupCompile.lref
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\MainWindow.baml
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane.g.resources
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane.Properties.Resources.resources
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane.csproj.GenerateResource.cache
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane.csproj.CoreCompileInputs.cache
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane.exe
+C:\Users\Nielot\source\repos\ZdarzeniaTrasowane\ZdarzeniaTrasowane\obj\Debug\ZdarzeniaTrasowane.pdb
