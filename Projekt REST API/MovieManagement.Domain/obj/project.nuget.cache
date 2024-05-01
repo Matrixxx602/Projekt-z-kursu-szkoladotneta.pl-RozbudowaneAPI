@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JKos9fEmc4hkuZ3riS59p9H2oM8DDyX2Q36KAYdPzS1c9mYH4KP0cLzogNmmeeeu6Z+OlYpPxCXy59D8pYqiTA==",
+  "dgSpecHash": "l0YLATkYjMk57HtstYWkjD/G/T06/LYGhOcl0ixT0J1wBTn/zL43XyPR6FzGkQgeqH7oZ5M7R8Ne6QbFQkTkYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nielot\\source\\repos\\MovieManagement\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Nielot\\source\\repos github\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
