@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "NvgJX2dsHIWVXPP+XHoCK6lnk0XiOJ+jtZCcq26PgUlrnOsYHMVrC7tn28XSP/Z1eo6QlnahCoYr1E9k+pYK7g==",
+  "dgSpecHash": "sR1sT/CgcrPDG6+5fIG+mU6sMQ2n4WFi0jh++3/3FVNjAMlpM4EYTtFEVObexQnmWYoyF8eRoAm0Zh+dhFlE6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Infrastructure\\MovieManagement.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Nielot\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nielot\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nielot\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\Nielot\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nielot\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

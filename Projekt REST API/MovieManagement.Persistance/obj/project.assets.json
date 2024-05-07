@@ -1999,6 +1999,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "MovieManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MovieManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieManagement.Application.dll": {}
+        }
+      },
       "MovieManagement.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6736,6 +6746,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "MovieManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../MovieManagement.Application/MovieManagement.Application.csproj",
+      "msbuildProject": "../MovieManagement.Application/MovieManagement.Application.csproj"
+    },
     "MovieManagement.Domain/1.0.0": {
       "type": "project",
       "path": "../MovieManagement.Domain/MovieManagement.Domain.csproj",
@@ -6749,6 +6764,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
       "Microsoft.Extensions.Configuration.EnvironmentVariables >= 8.0.0",
       "Microsoft.Extensions.Configuration.Json >= 8.0.0",
+      "MovieManagement.Application >= 1.0.0",
       "MovieManagement.Domain >= 1.0.0",
       "System.Collections >= 4.3.0"
     ]
@@ -6780,6 +6796,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj": {
+              "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj"
+            },
             "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
               "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj"
             }

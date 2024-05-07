@@ -2077,6 +2077,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "MovieManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MovieManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieManagement.Application.dll": {}
+        }
+      },
       "MovieManagement.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2090,6 +2100,11 @@
       "MovieManagement.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "MovieManagement.Application": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MovieManagement.Infrastructure.dll": {}
         },
@@ -2105,6 +2120,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "MovieManagement.Application": "1.0.0",
           "MovieManagement.Domain": "1.0.0",
           "System.Collections": "4.3.0"
         },
@@ -6924,6 +6940,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "MovieManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../MovieManagement.Application/MovieManagement.Application.csproj",
+      "msbuildProject": "../MovieManagement.Application/MovieManagement.Application.csproj"
     },
     "MovieManagement.Domain/1.0.0": {
       "type": "project",
