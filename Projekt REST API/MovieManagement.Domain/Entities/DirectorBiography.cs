@@ -9,7 +9,7 @@ namespace MovieManagement.Domain.Entities
 {
     public class DirectorBiography : AuditableEntity
     {
-        public AuditableEntity Id { get; set; }
+        public int Id { get; set; }
         public DateTime DoB { get; set; }
         public int DirectorId { get; set; }
         public Director Director { get; set; }

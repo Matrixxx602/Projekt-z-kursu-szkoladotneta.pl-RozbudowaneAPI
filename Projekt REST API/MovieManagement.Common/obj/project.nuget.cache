@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LBRHHUxW/hqifZlWlzoGff45dF0lXizD7GHACJWaOP5eA7mAeOPPtOUq4YLCqB3gKrPYR95/GpU4y9jrhY+qlw==",
+  "dgSpecHash": "BV0DsVDWEuM0H+/QnDqlArrses1rI2djJnHmWQBrZXwOwvREAGkWQWIc04ES97x1++zpzrtSBRiRHrAbRUOluA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nielot\\source\\repos\\MovieManagement\\MovieManagement.Common\\MovieManagement.Common.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nielot\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nielot\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nielot\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

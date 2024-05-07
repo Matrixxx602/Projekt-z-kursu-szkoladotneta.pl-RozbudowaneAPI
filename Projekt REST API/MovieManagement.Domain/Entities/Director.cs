@@ -12,7 +12,6 @@ namespace MovieManagement.Domain.Entities
     {
         public PersonName DirectorName { get; set; }
         public ICollection<Movie> Movies { get; set; }
-        public int DirectorBiographyId { get; set; }
         public DirectorBiography DirectorBiography { get; set; }
     }
 }

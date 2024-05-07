@@ -9,6 +9,7 @@ namespace MovieManagement.Domain.Entities
 {
     public class Movie : AuditableEntity
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public int PremiereYear { get; set; }
         public int DirectorId { get; set; }

@@ -10,3 +10,15 @@ C:\Users\Nielot\source\repos github\Projekty-wykonane-w-kursach\Projekt REST API
 C:\Users\Nielot\source\repos github\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\refint\MovieManagement.Domain.dll
 C:\Users\Nielot\source\repos github\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.pdb
 C:\Users\Nielot\source\repos github\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\ref\MovieManagement.Domain.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\bin\Debug\net5.0\MovieManagement.Domain.deps.json
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\bin\Debug\net5.0\MovieManagement.Domain.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\bin\Debug\net5.0\MovieManagement.Domain.pdb
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.AssemblyInfo.cs
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.sourcelink.json
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\refint\MovieManagement.Domain.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.pdb
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\ref\MovieManagement.Domain.dll

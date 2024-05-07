@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Nielot\source\repos\SimpleNavigation\SimpleNavigation\obj\Debug\net8.0-windows\
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\SimpleNavigation\SimpleNavigation\obj\Debug\net8.0-windows\
 SimpleNavigation
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Nielot\source\repos\SimpleNavigation\SimpleNavigation\App.xaml
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\SimpleNavigation\SimpleNavigation\App.xaml
 526511547
 
 10210275963
 199755623345
 MainWindow.xaml;Pages\PageA.xaml;Pages\PageB.xaml;Pages\PageC.xaml;Pages\PageD.xaml;
 
-False
+True
 
