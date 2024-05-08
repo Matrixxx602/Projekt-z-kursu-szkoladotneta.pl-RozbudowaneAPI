@@ -16,6 +16,10 @@ namespace MovieManagement.Persistance
     {
         private readonly IDateTime _dateTime;
 
+        public MovieDbContext(DbContextOptions<MovieDbContext> options) : base(options)
+        {
+        }
+
         public MovieDbContext(DbContextOptions<MovieDbContext> options, IDateTime dateTime) : base(options)
         {
             _dateTime = dateTime;
