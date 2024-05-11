@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace MovieManagement.Persistance
 {
-    public class MovieDbContext : DbContext
+    public class MovieDbContext : DbContext, IMovieDbContext
     {
         private readonly IDateTime _dateTime;
 
