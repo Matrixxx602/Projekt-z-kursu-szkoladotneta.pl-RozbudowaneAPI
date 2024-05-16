@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using AutoMapper;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using MovieManagement.Application.Common.Interfaces;
 using System;
@@ -13,21 +14,20 @@ namespace MovieManagement.Application.Directors.Queries.GetDirectorDetail
     public class GetDirectorDetailQueryHandler : IRequestHandler<GetDirectorDetailQuery, DirectorDetailVm>
     {
         private readonly IMovieDbContext _context;
+        private IMapper _mapper;
 
-        public GetDirectorDetailQueryHandler(IMovieDbContext movieDbContext)
+        public GetDirectorDetailQueryHandler(IMovieDbContext movieDbContext, IMapper mapper)
         {
             _context = movieDbContext;
+            _mapper = mapper;
         }
         public async Task<DirectorDetailVm> Handle(GetDirectorDetailQuery request, CancellationToken cancellationToken)
         {
-            var director = await _context.Directors.Where(p => p.Id == request.DirectorId).FirstOrDefaultAsync(cancellationToken);
+            var director = await _context.Directors.Include(p => p.Movies).Where(p => p.Id == request.DirectorId)
+                .FirstOrDefaultAsync(cancellationToken);
 
-            var directorVm = new DirectorDetailVm()
-            {
-                FullName = director.DirectorName.ToString(),
-                LastMovieName = director.Movies.OrderByDescending(p => p.PremiereYear).FirstOrDefault().Name
-            };
-            
+            var directorVm = _mapper.Map<DirectorDetailVm>(director);
+
             return directorVm;
         }
     }

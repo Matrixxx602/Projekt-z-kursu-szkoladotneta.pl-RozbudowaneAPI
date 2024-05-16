@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj": {}
+    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj": {
+    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj",
         "projectName": "MovieManagement.Application",
-        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj",
+        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Nielot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\obj\\",
+        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nielot\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj"
+              "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj"
               }
             }
           }
@@ -49,9 +49,21 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "MediatR": {
               "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -78,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
+    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
         "projectName": "MovieManagement.Domain",
-        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Nielot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nielot\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj": {
+    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj",
         "projectName": "MovieManagement.Persistance",
-        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj",
+        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj",
         "packagesPath": "C:\\Users\\Nielot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\obj\\",
+        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nielot\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,11 +174,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj"
+              "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj"
               },
-              "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj"
+              "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj"
               }
             }
           }
