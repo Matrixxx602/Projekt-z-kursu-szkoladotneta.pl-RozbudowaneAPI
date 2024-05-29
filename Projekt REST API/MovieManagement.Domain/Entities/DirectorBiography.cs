@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MovieManagement.Domain.Entities
 {
-    public class DirectorBiography : AuditableEntity
+    public class DirectorBiography
     {
         public int Id { get; set; }
         public DateTime DoB { get; set; }

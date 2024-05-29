@@ -207,3 +207,11 @@ C:\Users\Nielot\Desktop\Moje\Repozytoria\Matrixxx602\Projekty-wykonane-w-kursach
 C:\Users\Nielot\Desktop\Moje\Repozytoria\Matrixxx602\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\obj\Debug\net5.0\MovieManagement.Api.pdb
 C:\Users\Nielot\Desktop\Moje\Repozytoria\Matrixxx602\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\obj\Debug\net5.0\MovieManagement.Api.genruntimeconfig.cache
 C:\Users\Nielot\Desktop\Moje\Repozytoria\Matrixxx602\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\obj\Debug\net5.0\ref\MovieManagement.Api.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\bin\Debug\net5.0\MediatR.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\bin\Debug\net5.0\MovieManagement.Application.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\bin\Debug\net5.0\MovieManagement.Application.pdb
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Nielot\Desktop\Moje\Repozytoria\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

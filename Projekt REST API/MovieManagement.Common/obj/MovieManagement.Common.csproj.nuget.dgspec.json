@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj": {}
+    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj": {
+    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj",
         "projectName": "MovieManagement.Common",
-        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj",
+        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\MovieManagement.Common.csproj",
         "packagesPath": "C:\\Users\\Nielot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Matrixxx602\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\obj\\",
+        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nielot\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MovieManagement.Domain.Entities
 {
-    public class Movie : AuditableEntity
+    public class Movie
     {
         public int Id { get; set; }
         public string Name { get; set; }
