@@ -1,9 +1,0 @@
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\bin\Debug\Kaczorek.BL.dll
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\bin\Debug\Kaczorek.BL.pdb
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\obj\Debug\Kaczorek.BL.csproj.AssemblyReference.cache
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\obj\Debug\Kaczorek.BL.csproj.CoreCompileInputs.cache
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\obj\Debug\Kaczorek.BL.dll
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\obj\Debug\Kaczorek.BL.pdb
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\bin\Debug\Common.dll
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\bin\Debug\Common.pdb
-C:\Users\Nielot\source\repos\Kaczorek\Kaczorek.BL\obj\Debug\Kaczorek.FC428EF8.Up2Date
