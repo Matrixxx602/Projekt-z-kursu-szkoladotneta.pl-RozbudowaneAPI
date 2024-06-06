@@ -34,3 +34,15 @@ C:\Users\Nielot\Desktop\Moje\Repozytoria\Matrixxx602\Projekty-wykonane-w-kursach
 C:\Users\Nielot\Desktop\Moje\Repozytoria\Matrixxx602\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\refint\MovieManagement.Domain.dll
 C:\Users\Nielot\Desktop\Moje\Repozytoria\Matrixxx602\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.pdb
 C:\Users\Nielot\Desktop\Moje\Repozytoria\Matrixxx602\Projekty-wykonane-w-kursach\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\ref\MovieManagement.Domain.dll
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\bin\Debug\net5.0\MovieManagement.Domain.deps.json
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\bin\Debug\net5.0\MovieManagement.Domain.dll
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\bin\Debug\net5.0\MovieManagement.Domain.pdb
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.AssemblyInfoInputs.cache
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.AssemblyInfo.cs
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.sourcelink.json
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.dll
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\refint\MovieManagement.Domain.dll
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\MovieManagement.Domain.pdb
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement.Domain\obj\Debug\net5.0\ref\MovieManagement.Domain.dll

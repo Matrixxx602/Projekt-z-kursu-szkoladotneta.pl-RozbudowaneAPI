@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HbaIxLHBqtVTVEnFA6PJ4O40mK3Y4ywm5pItL6i8J+ttNQOWU3LpY5AjOqD1ypMLxpsgvaOQeJE1OP9dHDc6Hw==",
+  "dgSpecHash": "myNNrWpGoKaOlRdTtaftbzEeohPRPOWTH4uBRpDaWlnWiryemIXELBURAC3CIIjAYkmJ9CyWPM8QQqYLObC7hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
+  "projectFilePath": "D:\\Moje\\Repozytoria\\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

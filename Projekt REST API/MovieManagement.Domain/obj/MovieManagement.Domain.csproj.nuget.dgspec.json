@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {}
+    "D:\\Moje\\Repozytoria\\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
+    "D:\\Moje\\Repozytoria\\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Moje\\Repozytoria\\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
         "projectName": "MovieManagement.Domain",
-        "projectPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
+        "projectPath": "D:\\Moje\\Repozytoria\\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\\Projekt REST API\\MovieManagement.Domain\\MovieManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Nielot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Domain\\obj\\",
+        "outputPath": "D:\\Moje\\Repozytoria\\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\\Projekt REST API\\MovieManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nielot\\AppData\\Roaming\\NuGet\\NuGet.Config",

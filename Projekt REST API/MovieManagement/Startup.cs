@@ -16,6 +16,7 @@ using MovieManagement.Application;
 using MovieManagement.Infrastructure;
 using MovieManagement.Persistance.Migrations;
 using System.IO;
+using Serilog;
 
 namespace MovieManagement
 {
@@ -53,6 +54,8 @@ namespace MovieManagement
             }
 
             app.UseHttpsRedirection();
+
+            app.UseSerilogRequestLogging();
 
             app.UseRouting();
 

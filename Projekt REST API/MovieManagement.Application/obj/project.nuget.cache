@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "njbVYyta9yFmGfJ8JrJd/Wb2U9A/MuTfpgpPWgYjTH8iI5lltza82b6luI7oYrDHZi9/F+53Dyqk5favkidDcg==",
+  "dgSpecHash": "1j5kB8h54E+/wh+ejRbTLRhVFp0wqVd0XssLW5ENnSwUaLh0fWLH20evapt9mhvEfBT8WDb5A63LkIIE2aat6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj",
+  "projectFilePath": "D:\\Moje\\Repozytoria\\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\\Projekt REST API\\MovieManagement.Application\\MovieManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nielot\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Nielot\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

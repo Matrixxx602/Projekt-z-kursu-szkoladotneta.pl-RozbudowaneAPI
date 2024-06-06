@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BF7hXqoS4EtkOv883yBLuWWCMVB0dcD6LT4gOaPot5VYfuMISwed3fpXuYsa1x8kMpYdJdaQJabh8hG7KC338Q==",
+  "dgSpecHash": "YG7nrvR+vi3/bXqRYct0NHSXVmwMj+B5HgXlKeY92spnO0C/R+QDu4robpawT6aKifTsX38BXj/Wyg82NI2Opw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nielot\\Desktop\\Moje\\Repozytoria\\Projekty-wykonane-w-kursach\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj",
+  "projectFilePath": "D:\\Moje\\Repozytoria\\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\\Projekt REST API\\MovieManagement.Persistance\\MovieManagement.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nielot\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Nielot\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
