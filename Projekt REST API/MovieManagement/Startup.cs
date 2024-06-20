@@ -17,6 +17,10 @@ using MovieManagement.Infrastructure;
 using MovieManagement.Persistance.Migrations;
 using System.IO;
 using Serilog;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.AspNetCore.Http;
+using MovieManagement.Application.Common.Interfaces;
+using MovieManagement.Api.Service;
 
 namespace MovieManagement
 {
@@ -36,10 +40,33 @@ namespace MovieManagement
             services.AddInfrastructure(Configuration);
             services.AddPersistance(Configuration);
             services.AddControllers();
-
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy => policy.AllowAnyOrigin());
+            });
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(typeof(ICurrentUserService), typeof(CurrentUserService));
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
+                {
+                    options.Authority = "https://localhost:5001";
+                    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                    {
+                        ValidateAudience = false
+                    };
+                });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieManagement", Version = "v1" });
+            });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("ApiScope", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireClaim("scope", "api1");
+                });
             });
         }
 
@@ -55,6 +82,7 @@ namespace MovieManagement
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseSerilogRequestLogging();
 
             app.UseRouting();
@@ -63,7 +91,7 @@ namespace MovieManagement
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllers().RequireAuthorization("ApiScope");
             });
         }
     }

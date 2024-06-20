@@ -324,3 +324,5 @@ D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST
 D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement\obj\Debug\net5.0\ref\MovieManagement.Api.dll
 D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.dll
 D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement\bin\Debug\net5.0\Serilog.Sinks.Seq.dll
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement\bin\Debug\net5.0\IdentityModel.dll
+D:\Moje\Repozytoria\Projekt-z-kursu-szkoladotneta.pl-RozbudowaneAPI\Projekt REST API\MovieManagement\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
