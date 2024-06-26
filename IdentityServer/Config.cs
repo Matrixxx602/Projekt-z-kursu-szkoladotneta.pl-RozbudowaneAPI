@@ -46,13 +46,13 @@ namespace IdentityServer
                     ClientId = "swagger",
                     ClientName = "Client for Swagger user",
                     AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
-                    ClientSecrets = {new Secret("secret".Sha256()) },
-                    AllowedScopes = {"api1", "user"},
+                    ClientSecrets = {new Secret("secret".Sha256())},
+                    AllowedScopes = {"api1", "user", "openid"},
                     AlwaysSendClientClaims = true,
                     AlwaysIncludeUserClaimsInIdToken = true,
-                    AllowAccessTokensViaBrowser = true,
-                    RedirectUris = {"https://localhost:44384/swagger/oauth2-redirect.html"},
-                    AllowedCorsOrigins = { "https://localhost:44384" }
+                    AllowAccessTokensViaBrowser=true,
+                    RedirectUris = { "https://localhost:44333/swagger/oauth2-redirect.html" },
+                    AllowedCorsOrigins = { "https://localhost:44333"}
                 }
             };
     }

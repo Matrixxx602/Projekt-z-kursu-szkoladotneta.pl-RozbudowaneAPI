@@ -8,7 +8,7 @@ namespace MovieManagement.Application.Common.Interfaces
 {
     public interface ICurrentUserService
     {
-        public string Email { get; set; }
-        public bool IsAuthenticated { get; set; }
+        string Email { get; set; }
+        bool IsAuthenticated { get; set; }
     }
 }
