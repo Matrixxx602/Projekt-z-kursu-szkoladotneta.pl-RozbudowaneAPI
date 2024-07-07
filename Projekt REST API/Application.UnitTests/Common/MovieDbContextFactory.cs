@@ -26,51 +26,23 @@ namespace Application.UnitTests.Common
             var options = new DbContextOptionsBuilder<MovieDbContext>()
                 .UseInMemoryDatabase(Guid.NewGuid().ToString()).Options;
 
-            var mock = new Mock<MovieDbContext>(options, dateTimeMock.Object, currentUserMock.Object)
-            {
-                CallBase = true
-            };
+            var mock = new Mock<MovieDbContext>(options, dateTimeMock.Object, currentUserMock.Object) { CallBase = true };
 
             var context = mock.Object;
 
             context.Database.EnsureCreated();
 
-            var director = new Director()
-            {
-                Id = 2,
-                StatusId = 1,
-                DirectorName = new MovieManagement.Domain.ValueObjects.PersonName()
-                {
-                    FirstName = "Kajetan",
-                    LastName = "Duszyński"
-                }
-            };
+            var director = new MovieManagement.Domain.Entities.Director() { Id = 2, StatusId = 1, DirectorName = new MovieManagement.Domain.ValueObjects.PersonName() { FirstName = "Kajetan", LastName = "Duszyński" } };
             context.Directors.Add(director);
 
-            var directorBiography = new DirectorBiography()
-            {
-                DirectorId = 2,
-                Id = 2,
-                DoB = new DateTime(1950, 1, 1),
-                PlaceOfBirth = "Warsaw"
-            };
+            var directorBiography = new DirectorBiography() { DirectorId = 2, Id = 2, DoB = new DateTime(1950, 1, 1), PlaceOfBirth = "Warsaw" };
             context.DirectorBiographies.Add(directorBiography);
 
-            var genre = new Genre()
-            {
-                Id = 1,
-                Name = "Comedy"
-            };
+            var genre = new Genre() { Id = 1, Name = "Comedy" };
             context.Genres.Add(genre);
 
-            var movie = new Movie()
-            {
-                DirectorId = 2,
-                Genres = new List<Genre>() { genre },
-                Name = "MovieName",
-                PremiereYear = 2000,
-                Id = 3
-            };
+            var movie = new Movie() { DirectorId = 2, Genres = new List<Genre>() { genre }, Name = "MovieName", PremiereYear = 2000, Id = 3 };
+
             context.Movies.Add(movie);
 
             context.SaveChanges();
