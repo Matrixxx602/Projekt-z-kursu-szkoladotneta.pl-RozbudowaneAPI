@@ -10,11 +10,11 @@ using Xunit;
 
 namespace Application.UnitTests.Common
 {
-    public class QuerryTestFixtures : IDisposable
+    public class QueryTestFixtures : IDisposable
     {
         public MovieDbContext Context { get; private set; }
         public IMapper Mapper { get; private set; }
-        public QuerryTestFixtures()
+        public QueryTestFixtures()
         {
             Context = MovieDbContextFactory.Create().Object;
 
@@ -31,8 +31,8 @@ namespace Application.UnitTests.Common
         }
     }
 
-    [CollectionDefinition("QuerryCollection")]
-    public class QuerryCollection : ICollectionFixture<QuerryTestFixtures>
+    [CollectionDefinition("QueryCollection")]
+    public class QueryCollection : ICollectionFixture<QueryTestFixtures>
     {
 
     }

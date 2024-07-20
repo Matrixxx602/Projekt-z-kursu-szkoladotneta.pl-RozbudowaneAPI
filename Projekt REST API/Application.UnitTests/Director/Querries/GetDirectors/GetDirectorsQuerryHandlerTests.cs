@@ -1,6 +1,7 @@
 ﻿using Application.UnitTests.Common;
 using AutoMapper;
 using MovieManagement.Application.Directors.Queries.GetDirectorDetail;
+using MovieManagement.Application.Directors.Queries.GetDirectors;
 using MovieManagement.Persistance;
 using Shouldly;
 using System;
@@ -11,30 +12,29 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Application.UnitTests.Director.Querries.GetDirectorDetail
+namespace Application.UnitTests.Director.Querries.GetDirectors
 {
     [Collection("QueryCollection")]
-    public class GetDirectorDetailQueryHandlerTests
+    public class GetDirectorsQueryHandlerTests
     {
         private readonly MovieDbContext _context;
         private readonly IMapper _mapper;
 
-        public GetDirectorDetailQueryHandlerTests(QueryTestFixtures fixtures)
+        public GetDirectorsQueryHandlerTests(QueryTestFixtures fixtures)
         {
             _context = fixtures.Context;
             _mapper = fixtures.Mapper;
         }
 
         [Fact]
-        public async Task CanGetDirectorDetailById()
+        public async Task CanGetDirectors()
         {
-            var handler = new GetDirectorDetailQueryHandler(_context, _mapper);
+            var handler = new GetDirectorsQueryHandler(_context, _mapper);
 
-            var directorId = 2;
+            var result = await handler.Handle(new GetDirectorsQuery(), CancellationToken.None);
 
-            var result = await handler.Handle(new GetDirectorDetailQuery { DirectorId = directorId }, CancellationToken.None);
-            result.ShouldBeOfType<DirectorDetailVm>();
-            result.FullName.ShouldBe("Kajetan Duszyński");
+            result.ShouldBeOfType<DirectorsVm>();
+            result.Directors.Count.ShouldBe(2);
         }
     }
 }
