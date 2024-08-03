@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManagement.Persistance
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8988468A-92C3-45E3-A9E1-1A6B9ECD33B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "Application.UnitTests\Application.UnitTests.csproj", "{594F9BA9-E812-4EA2-8261-412A445C744F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "Application.UnitTests\Application.UnitTests.csproj", "{594F9BA9-E812-4EA2-8261-412A445C744F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.IntegrationTests", "WebApi.IntegrationTests\WebApi.IntegrationTests.csproj", "{8F58ADA6-7513-4870-AE34-B1F07EF65B5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{594F9BA9-E812-4EA2-8261-412A445C744F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{594F9BA9-E812-4EA2-8261-412A445C744F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{594F9BA9-E812-4EA2-8261-412A445C744F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F58ADA6-7513-4870-AE34-B1F07EF65B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F58ADA6-7513-4870-AE34-B1F07EF65B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F58ADA6-7513-4870-AE34-B1F07EF65B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F58ADA6-7513-4870-AE34-B1F07EF65B5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{3C80D9C4-6999-46C9-B578-B95FB1299839} = {36B9EEB0-70FB-446A-BCAC-0A573D29458D}
 		{8BF25D34-C63B-4F26-AA3F-53BE9ED2A122} = {36B9EEB0-70FB-446A-BCAC-0A573D29458D}
 		{594F9BA9-E812-4EA2-8261-412A445C744F} = {8988468A-92C3-45E3-A9E1-1A6B9ECD33B6}
+		{8F58ADA6-7513-4870-AE34-B1F07EF65B5D} = {8988468A-92C3-45E3-A9E1-1A6B9ECD33B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58FBF15D-6593-4E1A-BDDB-8B7315FBE328}

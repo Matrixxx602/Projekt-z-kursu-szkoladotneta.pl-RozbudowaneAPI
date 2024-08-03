@@ -11,11 +11,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("423fd147-2dbb-42e5-be77-36f924fd4035")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieManagement.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ac5a00db4022ccb634f213a33021fd953e4fe91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0060ab519d7893cf679336457d869ce47fe1b7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieManagement.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieManagement.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

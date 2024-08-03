@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +8,7 @@ using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace MovieManagement
@@ -22,7 +24,7 @@ namespace MovieManagement
             try
             {
                 Log.Information("Application is starting up");
-                CreateHostBuilder(args).Build().Run();
+                CreateWebHostBuilder(args).UseSerilog().Build().Run();
 
             }
             catch (Exception ex)
@@ -37,11 +39,28 @@ namespace MovieManagement
         }
         
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args).UseSerilog()
-                .ConfigureWebHostDefaults(webBuilder =>
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+            .ConfigureAppConfiguration((hostingContext, config) =>
+            {
+                var env = hostingContext.HostingEnvironment;
+                config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.Local.json", optional: true, reloadOnChange: true);
+
+                if(env.IsDevelopment())
                 {
-                    webBuilder.UseStartup<Startup>();
-                });
+                    var appAssembly = Assembly.Load(new AssemblyName(env.ApplicationName));
+                    config.AddUserSecrets(appAssembly, optional: true);
+                }
+
+                config.AddEnvironmentVariables();
+
+                if(args != null)
+                {
+                    config.AddCommandLine(args);
+                }
+            })
+            .UseStartup<Startup>();
     }
 }
