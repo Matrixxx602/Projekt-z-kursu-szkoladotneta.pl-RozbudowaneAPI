@@ -10,6 +10,7 @@ using Serilog;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using WebApi.IntegrationTests.Common.DummyServices;
 
 namespace WebApi.IntegrationTests.Common
 {
@@ -33,6 +34,8 @@ namespace WebApi.IntegrationTests.Common
 
                     services.AddScoped<IMovieDbContext>(provider =>
                     provider.GetService<MovieDbContext>());
+
+                    services.AddScoped<ICurrentUserService, DummyCurrentUserService>();
 
                     var sp = services.BuildServiceProvider();
 
