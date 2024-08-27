@@ -27,11 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.IntegrationTests", "WebApi.IntegrationTests\WebApi.IntegrationTests.csproj", "{8F58ADA6-7513-4870-AE34-B1F07EF65B5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieManagementBlazor.Server", "MovieManagementBlazor\Server\MovieManagementBlazor.Server.csproj", "{8D46696E-4DB9-4AD3-AD3B-FA96D6E4895B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManagementBlazor.Server", "MovieManagementBlazor\Server\MovieManagementBlazor.Server.csproj", "{8D46696E-4DB9-4AD3-AD3B-FA96D6E4895B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieManagementBlazor.Client", "MovieManagementBlazor\Client\MovieManagementBlazor.Client.csproj", "{9C3FAD74-04B8-46CD-B44D-7958BD76A431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManagementBlazor.Client", "MovieManagementBlazor\Client\MovieManagementBlazor.Client.csproj", "{9C3FAD74-04B8-46CD-B44D-7958BD76A431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieManagementBlazor.Shared", "MovieManagementBlazor\Shared\MovieManagementBlazor.Shared.csproj", "{B4CE7688-BAF6-4985-98BE-5CE8EE039AF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieManagementBlazor.Shared", "MovieManagementBlazor\Shared\MovieManagementBlazor.Shared.csproj", "{B4CE7688-BAF6-4985-98BE-5CE8EE039AF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
