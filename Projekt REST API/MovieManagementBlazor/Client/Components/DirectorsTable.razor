@@ -1,0 +1,23 @@
+﻿@using MovieManagementBlazor.Client.Models
+<h3>DirectorsTable</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var director in Directors)
+        {
+            <tr>
+                <td>@director.FullName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    [Parameter]
+    public List<DirectorDto> Directors { get; set; }
+}
