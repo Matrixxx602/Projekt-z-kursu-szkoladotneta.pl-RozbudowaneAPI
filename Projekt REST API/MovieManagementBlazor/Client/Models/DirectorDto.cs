@@ -1,4 +1,6 @@
-﻿namespace MovieManagementBlazor.Client.Models
+﻿using System.Threading.Tasks;
+
+namespace MovieManagementBlazor.Client.Models
 {
     public class DirectorDto
     {
