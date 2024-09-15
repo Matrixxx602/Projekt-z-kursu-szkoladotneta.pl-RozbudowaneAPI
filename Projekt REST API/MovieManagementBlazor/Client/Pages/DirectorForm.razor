@@ -1,11 +1,11 @@
 ﻿@page "/addDirector"
 @using MovieManagementBlazor.Client.Models
 @using System.Text.Json
-@inject IJSRuntime JSRuntime;
+@inject IJSRuntime JSRuntime
 
 <h3>DirectorForm</h3>
 
-<EditForm EditContext="@editContext" OnInvalidSubmit="HandleValidSubmit" @onreset="HandleReset">
+<EditForm EditContext="@editContext" OnValidSubmit="HandleValidSubmit" @onreset="HandleReset">
     <DataAnnotationsValidator />
     <div class="form-row">
         <div class="form-group col">
